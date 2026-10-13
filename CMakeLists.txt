@@ -1,23 +1,14 @@
-cmake_minimum_required(VERSION 3.16)
-project(CoursOpenCv LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.5)
+project(CoursOpenCv)
 
-set(CMAKE_CXX_STANDARD 17)
+file(GLOB_RECURSE SRC src/*)
+file(GLOB_RECURSE HEADERS include/*)
 
-# Change this path to your actual OpenCV installation
-set(OpenCV_DIR "C:/opencv/build")
+add_executable(CoursOpenCv ${LIB_HEADERS} ${HEADERS} ${SRC})
 
-find_package(OpenCV REQUIRED)
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
 
-file(GLOB_RECURSE SRC CONFIGURE_DEPENDS src/*.cpp)
-file(GLOB_RECURSE HEADERS CONFIGURE_DEPENDS include/*)
-
-add_executable(CoursOpenCv ${HEADERS} ${SRC})
-
-target_include_directories(CoursOpenCv PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/include
-    ${OpenCV_INCLUDE_DIRS}
-)
-
-target_link_libraries(CoursOpenCv PRIVATE
-    ${OpenCV_LIBS}
-)
+target_link_directories(CoursOpenCv PUBLIC .)
+target_link_libraries(CoursOpenCv ${OpenCV_LIBS})
+target_include_directories(CoursOpenCv PUBLIC include ${OpenCV_INCLUDE_DIRS})

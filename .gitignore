@@ -3,3 +3,6 @@ CMakeLists.txt
 
 #vs code
 .vscode/
+
+#video
+*.mp4

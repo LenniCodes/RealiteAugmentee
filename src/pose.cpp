@@ -29,10 +29,22 @@ bool loadCameraParams(const std::string& path, CameraParams& cam, cv::Size frame
   if (frameSize.area() > 0) {
     double calibW = 2.0 * cam.K.at<double>(0, 2);
     double calibH = 2.0 * cam.K.at<double>(1, 2);
-    double sx = frameSize.width / calibW, sy = frameSize.height / calibH;
-    if (std::abs(sx - 1.0) > 1e-3 || std::abs(sy - 1.0) > 1e-3) {
-      cam.K.at<double>(0, 0) *= sx;  cam.K.at<double>(0, 2) *= sx;
-      cam.K.at<double>(1, 1) *= sy;  cam.K.at<double>(1, 2) *= sy;
+    double w = frameSize.width, h = frameSize.height;
+    if (std::abs(w - calibW) > 0.5 || std::abs(h - calibH) > 0.5) {
+      // Mise à l'échelle UNIFORME (même facteur en x et en y), sinon la caméra est
+      // "étirée" et toutes les poses sont fausses. Si le rapport largeur/hauteur diffère
+      // (4:3, vidéo de téléphone en portrait...), on suppose que la focale suit le plus
+      // grand côté de l'image : c'est une approximation, une calibration reste préférable.
+      bool sameAspect = std::abs(w / h - calibW / calibH) < 0.01;
+      double s = sameAspect ? w / calibW : std::max(w, h) / std::max(calibW, calibH);
+      cam.K.at<double>(0, 0) *= s;
+      cam.K.at<double>(1, 1) *= s;
+      cam.K.at<double>(0, 2) = w / 2.0;
+      cam.K.at<double>(1, 2) = h / 2.0;
+      if (!sameAspect)
+        std::cerr << "Attention : " << path << " est prevu pour " << calibW << "x" << calibH
+                  << ", la source fait " << w << "x" << h
+                  << " -> K approximee (calibrer la camera pour plus de precision)\n";
     }
   }
   return true;

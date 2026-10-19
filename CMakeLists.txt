@@ -1,14 +1,21 @@
-cmake_minimum_required(VERSION 3.5)
-project(CoursOpenCv)
+cmake_minimum_required(VERSION 3.10)
+project(ReVA CXX)
 
-file(GLOB_RECURSE SRC src/*)
-file(GLOB_RECURSE HEADERS include/*)
+set(CMAKE_CXX_STANDARD 17)            # std::filesystem (menu)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+if(NOT CMAKE_BUILD_TYPE)
+  set(CMAKE_BUILD_TYPE Release)       # optimisations par défaut : indispensable pour le temps réel
+endif()
 
-add_executable(CoursOpenCv ${LIB_HEADERS} ${HEADERS} ${SRC})
+find_package(OpenCV REQUIRED)
 
-find_package( OpenCV REQUIRED )
-include_directories( ${OpenCV_INCLUDE_DIRS} )
+# Programme principal
+file(GLOB SRC CONFIGURE_DEPENDS src/*.cpp)
+add_executable(CoursOpenCv ${SRC})
+target_include_directories(CoursOpenCv PRIVATE include ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(CoursOpenCv PRIVATE ${OpenCV_LIBS})
 
-target_link_directories(CoursOpenCv PUBLIC .)
-target_link_libraries(CoursOpenCv ${OpenCV_LIBS})
-target_include_directories(CoursOpenCv PUBLIC include ${OpenCV_INCLUDE_DIRS})
+# Outil : génère des vidéos de test de synthèse (pose connue, bruit, occultations)
+add_executable(gen_synthetic tools/gen_synthetic.cpp src/pose.cpp)
+target_include_directories(gen_synthetic PRIVATE include ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(gen_synthetic PRIVATE ${OpenCV_LIBS})

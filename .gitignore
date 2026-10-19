@@ -1,8 +1,16 @@
-#Cmake file
-CMakeLists.txt
+# Build (CMake / Ninja / exécutables)
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.exe
 
-#vs code
+# VS Code
 .vscode/
 
-#video
+# Médias de test (trop lourds pour git) : on garde seulement le dossier
+media/*
+!media/.gitkeep
 *.mp4

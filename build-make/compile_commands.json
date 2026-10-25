@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/main.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o"
+}
+]

@@ -1,21 +1,20 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
+            "compileCommands": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make/compile_commands.json",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/include"
+                "${workspaceFolder}/include",
+                "/usr/include/opencv4"
             ],
             "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
+                "_DEBUG"
             ],
-            "windowsSdkVersion": "10.0.22621.0",
-            "compilerPath": "cl.exe",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

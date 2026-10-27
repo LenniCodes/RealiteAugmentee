@@ -129,125 +129,245 @@ CoursOpenCv/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/build
 .PHONY : CoursOpenCv/fast
 
-src/findPaperSheet.o: src/findPaperSheet.cpp.o
-.PHONY : src/findPaperSheet.o
+src/app/main.o: src/app/main.cpp.o
+.PHONY : src/app/main.o
 
 # target to build an object file
-src/findPaperSheet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o
-.PHONY : src/findPaperSheet.cpp.o
+src/app/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o
+.PHONY : src/app/main.cpp.o
 
-src/findPaperSheet.i: src/findPaperSheet.cpp.i
-.PHONY : src/findPaperSheet.i
+src/app/main.i: src/app/main.cpp.i
+.PHONY : src/app/main.i
 
 # target to preprocess a source file
-src/findPaperSheet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.i
-.PHONY : src/findPaperSheet.cpp.i
+src/app/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.i
+.PHONY : src/app/main.cpp.i
 
-src/findPaperSheet.s: src/findPaperSheet.cpp.s
-.PHONY : src/findPaperSheet.s
+src/app/main.s: src/app/main.cpp.s
+.PHONY : src/app/main.s
 
 # target to generate assembly for a file
-src/findPaperSheet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.s
-.PHONY : src/findPaperSheet.cpp.s
+src/app/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.s
+.PHONY : src/app/main.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/core/quad_utils.o: src/core/quad_utils.cpp.o
+.PHONY : src/core/quad_utils.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/core/quad_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o
+.PHONY : src/core/quad_utils.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/core/quad_utils.i: src/core/quad_utils.cpp.i
+.PHONY : src/core/quad_utils.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/core/quad_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.i
+.PHONY : src/core/quad_utils.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/core/quad_utils.s: src/core/quad_utils.cpp.s
+.PHONY : src/core/quad_utils.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/core/quad_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.s
+.PHONY : src/core/quad_utils.cpp.s
 
-src/pose.o: src/pose.cpp.o
-.PHONY : src/pose.o
+src/geometry/pose_estimator.o: src/geometry/pose_estimator.cpp.o
+.PHONY : src/geometry/pose_estimator.o
 
 # target to build an object file
-src/pose.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o
-.PHONY : src/pose.cpp.o
+src/geometry/pose_estimator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o
+.PHONY : src/geometry/pose_estimator.cpp.o
 
-src/pose.i: src/pose.cpp.i
-.PHONY : src/pose.i
+src/geometry/pose_estimator.i: src/geometry/pose_estimator.cpp.i
+.PHONY : src/geometry/pose_estimator.i
 
 # target to preprocess a source file
-src/pose.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/pose.cpp.i
-.PHONY : src/pose.cpp.i
+src/geometry/pose_estimator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.i
+.PHONY : src/geometry/pose_estimator.cpp.i
 
-src/pose.s: src/pose.cpp.s
-.PHONY : src/pose.s
+src/geometry/pose_estimator.s: src/geometry/pose_estimator.cpp.s
+.PHONY : src/geometry/pose_estimator.s
 
 # target to generate assembly for a file
-src/pose.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/pose.cpp.s
-.PHONY : src/pose.cpp.s
+src/geometry/pose_estimator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.s
+.PHONY : src/geometry/pose_estimator.cpp.s
 
-src/toGrayScale.o: src/toGrayScale.cpp.o
-.PHONY : src/toGrayScale.o
+src/io/camera_loader.o: src/io/camera_loader.cpp.o
+.PHONY : src/io/camera_loader.o
 
 # target to build an object file
-src/toGrayScale.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o
-.PHONY : src/toGrayScale.cpp.o
+src/io/camera_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o
+.PHONY : src/io/camera_loader.cpp.o
 
-src/toGrayScale.i: src/toGrayScale.cpp.i
-.PHONY : src/toGrayScale.i
+src/io/camera_loader.i: src/io/camera_loader.cpp.i
+.PHONY : src/io/camera_loader.i
 
 # target to preprocess a source file
-src/toGrayScale.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.i
-.PHONY : src/toGrayScale.cpp.i
+src/io/camera_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.i
+.PHONY : src/io/camera_loader.cpp.i
 
-src/toGrayScale.s: src/toGrayScale.cpp.s
-.PHONY : src/toGrayScale.s
+src/io/camera_loader.s: src/io/camera_loader.cpp.s
+.PHONY : src/io/camera_loader.s
 
 # target to generate assembly for a file
-src/toGrayScale.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.s
-.PHONY : src/toGrayScale.cpp.s
+src/io/camera_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.s
+.PHONY : src/io/camera_loader.cpp.s
 
-src/tracker.o: src/tracker.cpp.o
-.PHONY : src/tracker.o
+src/io/frame_source.o: src/io/frame_source.cpp.o
+.PHONY : src/io/frame_source.o
 
 # target to build an object file
-src/tracker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o
-.PHONY : src/tracker.cpp.o
+src/io/frame_source.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o
+.PHONY : src/io/frame_source.cpp.o
 
-src/tracker.i: src/tracker.cpp.i
-.PHONY : src/tracker.i
+src/io/frame_source.i: src/io/frame_source.cpp.i
+.PHONY : src/io/frame_source.i
 
 # target to preprocess a source file
-src/tracker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.i
-.PHONY : src/tracker.cpp.i
+src/io/frame_source.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.i
+.PHONY : src/io/frame_source.cpp.i
 
-src/tracker.s: src/tracker.cpp.s
-.PHONY : src/tracker.s
+src/io/frame_source.s: src/io/frame_source.cpp.s
+.PHONY : src/io/frame_source.s
 
 # target to generate assembly for a file
-src/tracker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.s
-.PHONY : src/tracker.cpp.s
+src/io/frame_source.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.s
+.PHONY : src/io/frame_source.cpp.s
+
+src/render/overlay.o: src/render/overlay.cpp.o
+.PHONY : src/render/overlay.o
+
+# target to build an object file
+src/render/overlay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o
+.PHONY : src/render/overlay.cpp.o
+
+src/render/overlay.i: src/render/overlay.cpp.i
+.PHONY : src/render/overlay.i
+
+# target to preprocess a source file
+src/render/overlay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.i
+.PHONY : src/render/overlay.cpp.i
+
+src/render/overlay.s: src/render/overlay.cpp.s
+.PHONY : src/render/overlay.s
+
+# target to generate assembly for a file
+src/render/overlay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.s
+.PHONY : src/render/overlay.cpp.s
+
+src/tracking/one_euro_filter.o: src/tracking/one_euro_filter.cpp.o
+.PHONY : src/tracking/one_euro_filter.o
+
+# target to build an object file
+src/tracking/one_euro_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o
+.PHONY : src/tracking/one_euro_filter.cpp.o
+
+src/tracking/one_euro_filter.i: src/tracking/one_euro_filter.cpp.i
+.PHONY : src/tracking/one_euro_filter.i
+
+# target to preprocess a source file
+src/tracking/one_euro_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.i
+.PHONY : src/tracking/one_euro_filter.cpp.i
+
+src/tracking/one_euro_filter.s: src/tracking/one_euro_filter.cpp.s
+.PHONY : src/tracking/one_euro_filter.s
+
+# target to generate assembly for a file
+src/tracking/one_euro_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.s
+.PHONY : src/tracking/one_euro_filter.cpp.s
+
+src/tracking/sheet_tracker.o: src/tracking/sheet_tracker.cpp.o
+.PHONY : src/tracking/sheet_tracker.o
+
+# target to build an object file
+src/tracking/sheet_tracker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o
+.PHONY : src/tracking/sheet_tracker.cpp.o
+
+src/tracking/sheet_tracker.i: src/tracking/sheet_tracker.cpp.i
+.PHONY : src/tracking/sheet_tracker.i
+
+# target to preprocess a source file
+src/tracking/sheet_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.i
+.PHONY : src/tracking/sheet_tracker.cpp.i
+
+src/tracking/sheet_tracker.s: src/tracking/sheet_tracker.cpp.s
+.PHONY : src/tracking/sheet_tracker.s
+
+# target to generate assembly for a file
+src/tracking/sheet_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.s
+.PHONY : src/tracking/sheet_tracker.cpp.s
+
+src/vision/edge_refiner.o: src/vision/edge_refiner.cpp.o
+.PHONY : src/vision/edge_refiner.o
+
+# target to build an object file
+src/vision/edge_refiner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o
+.PHONY : src/vision/edge_refiner.cpp.o
+
+src/vision/edge_refiner.i: src/vision/edge_refiner.cpp.i
+.PHONY : src/vision/edge_refiner.i
+
+# target to preprocess a source file
+src/vision/edge_refiner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.i
+.PHONY : src/vision/edge_refiner.cpp.i
+
+src/vision/edge_refiner.s: src/vision/edge_refiner.cpp.s
+.PHONY : src/vision/edge_refiner.s
+
+# target to generate assembly for a file
+src/vision/edge_refiner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.s
+.PHONY : src/vision/edge_refiner.cpp.s
+
+src/vision/sheet_detector.o: src/vision/sheet_detector.cpp.o
+.PHONY : src/vision/sheet_detector.o
+
+# target to build an object file
+src/vision/sheet_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o
+.PHONY : src/vision/sheet_detector.cpp.o
+
+src/vision/sheet_detector.i: src/vision/sheet_detector.cpp.i
+.PHONY : src/vision/sheet_detector.i
+
+# target to preprocess a source file
+src/vision/sheet_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.i
+.PHONY : src/vision/sheet_detector.cpp.i
+
+src/vision/sheet_detector.s: src/vision/sheet_detector.cpp.s
+.PHONY : src/vision/sheet_detector.s
+
+# target to generate assembly for a file
+src/vision/sheet_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoursOpenCv.dir/build.make CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.s
+.PHONY : src/vision/sheet_detector.cpp.s
 
 # Help Target
 help:
@@ -258,21 +378,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CoursOpenCv"
-	@echo "... src/findPaperSheet.o"
-	@echo "... src/findPaperSheet.i"
-	@echo "... src/findPaperSheet.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/pose.o"
-	@echo "... src/pose.i"
-	@echo "... src/pose.s"
-	@echo "... src/toGrayScale.o"
-	@echo "... src/toGrayScale.i"
-	@echo "... src/toGrayScale.s"
-	@echo "... src/tracker.o"
-	@echo "... src/tracker.i"
-	@echo "... src/tracker.s"
+	@echo "... src/app/main.o"
+	@echo "... src/app/main.i"
+	@echo "... src/app/main.s"
+	@echo "... src/core/quad_utils.o"
+	@echo "... src/core/quad_utils.i"
+	@echo "... src/core/quad_utils.s"
+	@echo "... src/geometry/pose_estimator.o"
+	@echo "... src/geometry/pose_estimator.i"
+	@echo "... src/geometry/pose_estimator.s"
+	@echo "... src/io/camera_loader.o"
+	@echo "... src/io/camera_loader.i"
+	@echo "... src/io/camera_loader.s"
+	@echo "... src/io/frame_source.o"
+	@echo "... src/io/frame_source.i"
+	@echo "... src/io/frame_source.s"
+	@echo "... src/render/overlay.o"
+	@echo "... src/render/overlay.i"
+	@echo "... src/render/overlay.s"
+	@echo "... src/tracking/one_euro_filter.o"
+	@echo "... src/tracking/one_euro_filter.i"
+	@echo "... src/tracking/one_euro_filter.s"
+	@echo "... src/tracking/sheet_tracker.o"
+	@echo "... src/tracking/sheet_tracker.i"
+	@echo "... src/tracking/sheet_tracker.s"
+	@echo "... src/vision/edge_refiner.o"
+	@echo "... src/vision/edge_refiner.i"
+	@echo "... src/vision/edge_refiner.s"
+	@echo "... src/vision/sheet_detector.o"
+	@echo "... src/vision/sheet_detector.i"
+	@echo "... src/vision/sheet_detector.s"
 .PHONY : help
 
 

@@ -69,92 +69,172 @@ include CMakeFiles/CoursOpenCv.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CoursOpenCv.dir/flags.make
 
-CMakeFiles/CoursOpenCv.dir/src/main.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
-CMakeFiles/CoursOpenCv.dir/src/main.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp
-CMakeFiles/CoursOpenCv.dir/src/main.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/main.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/main.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/main.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp
+CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/app/main.cpp
+CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/app/main.cpp
 
-CMakeFiles/CoursOpenCv.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp > CMakeFiles/CoursOpenCv.dir/src/main.cpp.i
+CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/app/main.cpp > CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.i
 
-CMakeFiles/CoursOpenCv.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp -o CMakeFiles/CoursOpenCv.dir/src/main.cpp.s
+CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/app/main.cpp -o CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.s
 
-CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
-CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp
-CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp
+CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/core/quad_utils.cpp
+CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/core/quad_utils.cpp
 
-CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp > CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.i
+CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/core/quad_utils.cpp > CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.i
 
-CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp -o CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.s
+CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/core/quad_utils.cpp -o CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.s
 
-CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
-CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp
-CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp
+CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/io/camera_loader.cpp
+CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/io/camera_loader.cpp
 
-CMakeFiles/CoursOpenCv.dir/src/pose.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/pose.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp > CMakeFiles/CoursOpenCv.dir/src/pose.cpp.i
+CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/io/camera_loader.cpp > CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.i
 
-CMakeFiles/CoursOpenCv.dir/src/pose.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/pose.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp -o CMakeFiles/CoursOpenCv.dir/src/pose.cpp.s
+CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/io/camera_loader.cpp -o CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.s
 
-CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
-CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp
-CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp
+CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/io/frame_source.cpp
+CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/io/frame_source.cpp
 
-CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp > CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.i
+CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/io/frame_source.cpp > CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.i
 
-CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp -o CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.s
+CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/io/frame_source.cpp -o CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.s
 
-CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
-CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp
-CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp
+CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/geometry/pose_estimator.cpp
+CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/geometry/pose_estimator.cpp
 
-CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp > CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.i
+CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/geometry/pose_estimator.cpp > CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.i
 
-CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp -o CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.s
+CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/geometry/pose_estimator.cpp -o CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.s
+
+CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/edge_refiner.cpp
+CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/edge_refiner.cpp
+
+CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/edge_refiner.cpp > CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.i
+
+CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/edge_refiner.cpp -o CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.s
+
+CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/sheet_detector.cpp
+CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/sheet_detector.cpp
+
+CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/sheet_detector.cpp > CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.i
+
+CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/sheet_detector.cpp -o CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.s
+
+CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/one_euro_filter.cpp
+CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/one_euro_filter.cpp
+
+CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/one_euro_filter.cpp > CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.i
+
+CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/one_euro_filter.cpp -o CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.s
+
+CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/sheet_tracker.cpp
+CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/sheet_tracker.cpp
+
+CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/sheet_tracker.cpp > CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.i
+
+CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/sheet_tracker.cpp -o CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.s
+
+CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o: CMakeFiles/CoursOpenCv.dir/flags.make
+CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o: /home/lenni/Desktop/VR/RealiteAugmentee/src/render/overlay.cpp
+CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o: CMakeFiles/CoursOpenCv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o -MF CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o.d -o CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/render/overlay.cpp
+
+CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lenni/Desktop/VR/RealiteAugmentee/src/render/overlay.cpp > CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.i
+
+CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lenni/Desktop/VR/RealiteAugmentee/src/render/overlay.cpp -o CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.s
 
 # Object files for target CoursOpenCv
 CoursOpenCv_OBJECTS = \
-"CMakeFiles/CoursOpenCv.dir/src/main.cpp.o" \
-"CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o" \
-"CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o" \
-"CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o" \
-"CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o"
+"CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o" \
+"CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o"
 
 # External object files for target CoursOpenCv
 CoursOpenCv_EXTERNAL_OBJECTS =
 
-CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/main.cpp.o
-CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o
-CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o
-CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o
-CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o
+CoursOpenCv: CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o
 CoursOpenCv: CMakeFiles/CoursOpenCv.dir/build.make
 CoursOpenCv: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0
 CoursOpenCv: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.10.0
@@ -214,7 +294,7 @@ CoursOpenCv: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.10.0
 CoursOpenCv: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.10.0
 CoursOpenCv: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.10.0
 CoursOpenCv: CMakeFiles/CoursOpenCv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CoursOpenCv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/lenni/Desktop/VR/RealiteAugmentee/build-make/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable CoursOpenCv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CoursOpenCv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

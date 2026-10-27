@@ -1,32 +1,62 @@
 [
 {
   "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
-  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/main.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp",
-  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/main.cpp",
-  "output": "CMakeFiles/CoursOpenCv.dir/src/main.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/app/main.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/app/main.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/app/main.cpp.o"
 },
 {
   "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
-  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp",
-  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/findPaperSheet.cpp",
-  "output": "CMakeFiles/CoursOpenCv.dir/src/findPaperSheet.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/core/quad_utils.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/core/quad_utils.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/core/quad_utils.cpp.o"
 },
 {
   "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
-  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp",
-  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/pose.cpp",
-  "output": "CMakeFiles/CoursOpenCv.dir/src/pose.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/io/camera_loader.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/io/camera_loader.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/io/camera_loader.cpp.o"
 },
 {
   "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
-  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp",
-  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/toGrayScale.cpp",
-  "output": "CMakeFiles/CoursOpenCv.dir/src/toGrayScale.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/io/frame_source.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/io/frame_source.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/io/frame_source.cpp.o"
 },
 {
   "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
-  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp",
-  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/tracker.cpp",
-  "output": "CMakeFiles/CoursOpenCv.dir/src/tracker.cpp.o"
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/geometry/pose_estimator.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/geometry/pose_estimator.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/geometry/pose_estimator.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/edge_refiner.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/vision/edge_refiner.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/vision/edge_refiner.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/vision/sheet_detector.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/vision/sheet_detector.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/vision/sheet_detector.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/one_euro_filter.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/one_euro_filter.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/tracking/one_euro_filter.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/sheet_tracker.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/tracking/sheet_tracker.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/tracking/sheet_tracker.cpp.o"
+},
+{
+  "directory": "/home/lenni/Desktop/VR/RealiteAugmentee/build-make",
+  "command": "/usr/bin/c++  -I/home/lenni/Desktop/VR/RealiteAugmentee/include -isystem /usr/include/opencv4 -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o -c /home/lenni/Desktop/VR/RealiteAugmentee/src/render/overlay.cpp",
+  "file": "/home/lenni/Desktop/VR/RealiteAugmentee/src/render/overlay.cpp",
+  "output": "CMakeFiles/CoursOpenCv.dir/src/render/overlay.cpp.o"
 }
 ]
